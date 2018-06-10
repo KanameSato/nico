@@ -14,3 +14,4 @@ object p extends Operation { val bf = "[" }
 object q extends Operation { val bf = "]" }
 
 object end extends Operation { val bf = "" }
+object endline extends Operation { val bf = "" }

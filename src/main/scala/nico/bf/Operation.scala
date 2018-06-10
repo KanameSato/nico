@@ -9,7 +9,7 @@ object Incr extends Operation {
 }
 
 object Decr extends Operation {
-  def execute(bf: BF): BF = bf.update(x => (x + 1).toByte)
+  def execute(bf: BF): BF = bf.update(x => (x - 1).toByte)
 }
 
 object Next extends Operation {
